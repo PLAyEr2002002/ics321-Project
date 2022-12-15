@@ -1,0 +1,209 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #080710;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+    
+}
+h1{
+    color: white;
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+
+h2{
+    font-size: 40px;
+    padding: 5px;
+}
+
+h3{
+    
+    font-size: 25px;
+    padding: 5px;
+}
+.background{
+    width: 430px;
+    height: 520px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+
+.background .shape{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+/* ADD MORE CIRCLES */
+/* .shape:first-child{
+    background: linear-gradient(
+        #1845ad,
+        #23a2f6
+    );
+    left: -80px;
+    top: -80px;
+} */
+.shape:last-child{
+    background: linear-gradient(
+        to right,
+        #1845ad,
+        #23a2f6
+    );
+    right: -30px;
+    bottom: -80px;
+}
+
+.shape:nth-child(1){
+    background: linear-gradient(
+        #1845ad,
+        #23a2f6
+    );
+    left: -400px;
+    top: -80px;
+}
+.shape:nth-child(2){
+    background: linear-gradient(
+        to right,
+        #ff512f,
+        #f09819
+    );
+    right: -400px;
+    bottom: 350px;
+}
+
+.shape:nth-child(3){
+    background: linear-gradient(
+        to right,
+        #ff512f,
+        #f09819
+    );
+    right: 400px;
+    bottom: -100px;
+}
+
+
+/*  */
+
+ul{
+    list-style-type: none;
+}
+/* navbar */
+.navbar{
+    background: #23a2f6;
+    color: white;
+    height: 60px;
+}
+
+.navbar .logo{
+    font-size: x-large;
+    font-weight: bold;
+    margin: 20px
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: bold;
+}
+.navbar a:hover{
+    color: #f09819;
+}
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    margin: 20px;
+}
+/* navbar */
+
+/* boxes  */
+
+.boxes .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box{
+    flex: 1;
+    background-color: rgba(255,255,255,0.13);
+
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(226, 106, 26, 0.5);
+    padding: 50px 35px;
+    text-align: center;
+    color: white;
+    margin: 20px 10px;
+    /* background-color: rgba(17, 208, 238, 0.13);
+    
+    border-radius: 5px;
+    
+    text-align: center; */
+
+    /* height: 520px;
+    width: 400px; */
+    
+    /* position: absolute; */
+    /* transform: translate(-50%,-50%); */
+    /* top: 50%;
+    left: 50%; */
+    
+}
+/*  */
+button{
+    margin-top: 50px;
+    width: 100%;
+    background-color: #366bde;
+    color: #080710;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: bold;
+}
+button a:hover{
+    color: #f09819;
+}
+
+/* goback button */
+
+/* useless */
+
+/* #goback{
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+} */
