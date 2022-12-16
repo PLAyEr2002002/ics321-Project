@@ -1,3 +1,6 @@
+/* FONT CONSISTENCY */
+
+
 *,
 *:before,
 *:after{
@@ -11,7 +14,7 @@ body{
     align-items: center;
     justify-content: center; */
 
-    
+    font-family: 'Libre Baskerville', serif;
 }
 h1{
     color: white;
@@ -20,17 +23,20 @@ h1{
     align-items: center;
     justify-content: center;
     font-size: 50px;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 h2{
     font-size: 40px;
     padding: 5px;
+    font-family: 'Libre Baskerville', serif;
 }
 
 h3{
     
     font-size: 25px;
     padding: 5px;
+    font-family: 'Libre Baskerville', serif;
 }
 .background{
     width: 430px;
